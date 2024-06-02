@@ -26,7 +26,7 @@ while True:
     """
     
     
-    if user_input == "rock" and computer =="scissor":
+    if user_input == "rock" and computer =="scissors":
         print("YOU won !")
         user_wins +=1
         
