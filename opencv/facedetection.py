@@ -1,13 +1,12 @@
 import cv2
 
-
 cap = cv2.VideoCapture(0)
 
 #write the video 
 fourcc = cv2.VideoWriter_fourcc(*'mp4v')
 
 #save the video 
-out = cv2.VideoWriter("out.mp4",fourcc,15,(469,239))
+# out = cv2.VideoWriter("out.mp4",fourcc,15,(469,239))
 
 while True:
     #ret is boolean helps to
